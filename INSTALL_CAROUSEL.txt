@@ -1,1 +1,0 @@
-// This file will be used to install react-slick and slick-carousel for the carousel feature
