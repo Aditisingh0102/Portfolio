@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <section style={{ textAlign: "center", padding: "50px" }}>
-      {/* Image on top */}
+      {/* Image from public folder */}
       <img
         src={process.env.PUBLIC_URL + "/IMG-20240603-WA0059.jpg"}
         alt="My Photo"
