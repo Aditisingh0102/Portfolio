@@ -43,6 +43,8 @@ Copy code
 
 ### 1️⃣ Clone the Repository
 ```bash
+git clone https://github.com/Aditisingh0102/Portfolio.git
+cd Portfolio
 
 cd portfolio
 2️⃣ Install Dependencies
