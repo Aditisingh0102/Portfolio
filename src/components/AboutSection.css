@@ -1,0 +1,53 @@
+.about-section {
+  margin-top: 32px;
+}
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #2575fc;
+}
+.about-section p {
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+}
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.about-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(38, 50, 56, 0.08);
+  padding: 24px 20px;
+  min-width: 220px;
+  max-width: 260px;
+  flex: 1 1 220px;
+  text-align: left;
+  transition: background 0.3s, color 0.3s;
+}
+.about-card h3 {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #6a11cb;
+}
+.about-card ul {
+  padding-left: 18px;
+  margin: 0;
+  font-size: 0.98rem;
+}
+.about-card svg {
+  color: #2575fc;
+}
+body.dark-mode .about-card {
+  background: #232526;
+  color: #ffd700;
+}
+body.dark-mode .about-card h3 {
+  color: #ffd700;
+}
+body.dark-mode .about-card svg {
+  color: #ffd700;
+}

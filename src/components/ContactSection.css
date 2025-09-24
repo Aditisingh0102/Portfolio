@@ -1,0 +1,42 @@
+.contact-section {
+  margin-top: 32px;
+  text-align: center;
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #2575fc;
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 24px;
+}
+.contact-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #2575fc;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.contact-icon span {
+  margin-top: 8px;
+  font-size: 1rem;
+}
+.contact-icon:hover {
+  color: #ffd700;
+}
+body.dark-mode .contact-section h2 {
+  color: #8f94fb;
+}
+body.dark-mode .contact-icon {
+  color: #8f94fb;
+}
+body.dark-mode .contact-icon:hover {
+  color: #fff;
+  background: #4e54c8;
+  border-radius: 12px;
+}
+}
