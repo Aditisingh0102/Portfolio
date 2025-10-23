@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 // This file will be used to install react-slick and slick-carousel for the carousel feature
+=======
+// This file will be used to install react-slick and slick-carousel for the carousel feature
+>>>>>>> b26e8e5 (first changes)

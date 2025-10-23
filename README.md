@@ -43,8 +43,11 @@ Copy code
 
 ### 1️⃣ Clone the Repository
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/Aditisingh0102/Portfolio.git
 cd Portfolio
+=======
+>>>>>>> b26e8e5 (first changes)
 
 cd portfolio
 2️⃣ Install Dependencies
@@ -64,4 +67,8 @@ To deploy:
 bash
 Copy code
 npm run build
+<<<<<<< HEAD
 npm run deploy
+=======
+npm run deploy
+>>>>>>> b26e8e5 (first changes)

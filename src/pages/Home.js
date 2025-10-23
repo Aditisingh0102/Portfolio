@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 function Home() {
@@ -30,3 +31,17 @@ function Home() {
 }
 
 export default Home;
+=======
+import React from "react";
+import Hero from "../components/Hero";
+
+function Home() {
+  return (
+    <>
+      <Hero />
+    </>
+  );
+}
+
+export default Home;
+>>>>>>> b26e8e5 (first changes)
