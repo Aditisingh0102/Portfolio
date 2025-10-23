@@ -28,7 +28,7 @@ function Navbar({ darkMode, onToggle }) {
   return (
     <nav className="navbar sticky-navbar">
   <h2 className="logo">Portfolio</h2>
-      <ul style={{ display: 'flex', alignItems: 'center', gap: '16px', margin: 0 }}>
+      <ul className="nav-links" style={{ display: 'flex', alignItems: 'center', gap: '16px', margin: 0 }}>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/projects">Projects</Link></li>

@@ -210,4 +210,27 @@ body.dark-mode .hero-cta,
 body.dark-mode .certificate-button {
   color: #fff !important;
 }
+<<<<<<< HEAD
 >>>>>>> b26e8e5 (first changes)
+=======
+
+/* Hero responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 36px 12px;
+  }
+  .hero-photo { width: 110px; height: 110px; }
+  .hero h1 { font-size: 2rem; }
+  .hero h2 { font-size: 1.15rem; }
+  .hero p { font-size: 1rem; }
+  .hero-cta { padding: 10px 22px; }
+}
+
+@media (max-width: 420px) {
+  .hero-photo { width: 90px; height: 90px; }
+  .hero h1 { font-size: 1.5rem; }
+  .hero h2 { font-size: 1rem; }
+  .hero p { font-size: 0.95rem; }
+  .hero-cta { padding: 8px 18px; font-size: 0.95rem; }
+}
+>>>>>>> 8f5b6fe (updated profile image)

@@ -144,3 +144,42 @@ body.dark-mode .navbar {
 body.dark-mode .navbar a {
   color: #f8ffae;
 }
+
+/* Responsive rules for small screens */
+@media (max-width: 768px) {
+  .sticky-navbar {
+    padding: 12px;
+  }
+  .sticky-navbar h2.logo {
+    font-size: 1.1rem;
+  }
+  .nav-links { width: 100%; }
+  .sticky-navbar ul {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .page {
+    padding: 20px;
+    max-width: 100%;
+  }
+  .project-card, .about-card, .cert-card, .skill-card, .achievement-card {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .sticky-navbar ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 8px;
+    padding-top: 8px;
+  }
+  .sticky-navbar a {
+    padding: 8px 10px;
+    font-size: 0.95rem;
+  }
+  .page { padding: 14px; }
+}

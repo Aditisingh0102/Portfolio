@@ -56,7 +56,7 @@ function Home() {
       <section style={{ textAlign: "center", padding: "50px", position: "relative", zIndex: 1 }}>
         {/* Image from public folder */}
         <img
-          src="/profile.jpg"
+          src={process.env.PUBLIC_URL + '/profile.jpg'}
           alt="My Photo"
           className="profile-img"
           style={{
