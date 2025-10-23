@@ -29,7 +29,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-  <img className="hero-photo" src="/IMG-20240603-WA0059.jpg" alt="Aditi Singh" />
+  <img className="hero-photo" src="/profile.jpg" alt="Aditi Singh" />
         <h1>Aditi Singh</h1>
         <h2><span className="highlight-dev">Full-Stack Web Developer</span> & CSE Student</h2>
         <p>
