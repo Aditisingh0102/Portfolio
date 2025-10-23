@@ -154,6 +154,38 @@ body.dark-mode .navbar a {
     font-size: 1.1rem;
   }
   .nav-links { width: 100%; }
+  /* Hamburger button */
+  .nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .nav-toggle .hamburger {
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    position: relative;
+  }
+  .nav-toggle .hamburger::before,
+  .nav-toggle .hamburger::after {
+    content: '';
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+  }
+  .nav-toggle .hamburger::before { top: -6px; }
+  .nav-toggle .hamburger::after { top: 6px; }
+
+  @media (max-width: 768px) {
+    .nav-toggle { display: inline-block; margin-left: 12px; }
+    .nav-links { display: none; width: 100%; margin-top: 10px; }
+    .nav-links.open { display: flex; flex-direction: column; gap: 8px; align-items: center; }
+    .nav-links li { list-style: none; }
+  }
   .sticky-navbar ul {
     gap: 10px;
     flex-wrap: wrap;
