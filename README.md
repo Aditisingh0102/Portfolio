@@ -7,68 +7,37 @@ It showcases my skills, projects, achievements, and certifications as a **Full-S
 
 ## 🌟 Features
 - 🖼️ **Modern UI/UX** with responsive design  
-- 🌙 **Dark/Light Mode Toggle**  
-- 🧑‍🎓 **About Me Section** – Education, Skills, Achievements  
-- 💻 **Projects Showcase** with descriptions and GitHub links  
-- 📜 **Certificates Section**  
-- 📩 **Contact Me Button**  
+# Aditi Singh - Portfolio Website
 
----
+This is my personal portfolio website built with React.
 
-## 🛠️ Tech Stack
-- **Frontend:** React.js, HTML5, CSS3, JavaScript  
-- **Styling:** Tailwind CSS / Custom CSS  
-- **Version Control:** Git & GitHub  
-- **Deployment:** GitHub Pages  
+Getting started
 
----
+1. Clone the repo
 
-## 📂 Project Structure
-portfolio/
-│── public/ # Static files
-│── src/ # React components
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # About, Projects, Certificates etc.
-│ ├── App.js # Main app component
-│ ├── index.js # Entry point
-│── package.json # Project dependencies
-│── README.md # Project documentation
-
-yaml
-Copy code
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
 ```bash
-<<<<<<< HEAD
 git clone https://github.com/Aditisingh0102/Portfolio.git
 cd Portfolio
-=======
->>>>>>> b26e8e5 (first changes)
+```
 
-cd portfolio
-2️⃣ Install Dependencies
-bash
-Copy code
+2. Install dependencies
+
+```bash
 npm install
-3️⃣ Run the Development Server
-bash
-Copy code
+```
+
+3. Start dev server
+
+```bash
 npm start
-Now open http://localhost:3000 to view it in the browser.
+```
 
-🌍 Deployment
-This project is deployed using GitHub Pages.
-To deploy:
+Open http://localhost:3000 in your browser.
 
-bash
-Copy code
+Deployment
+
+```bash
 npm run build
-<<<<<<< HEAD
 npm run deploy
-=======
-npm run deploy
->>>>>>> b26e8e5 (first changes)
+```
+

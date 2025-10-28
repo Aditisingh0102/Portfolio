@@ -2,14 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
   "homepage": "https://Aditisingh0102.github.io/Portfolio",
-=======
->>>>>>> b26e8e5 (first changes)
-=======
-  "homepage": "https://Aditisingh0102.github.io/Portfolio",
->>>>>>> fe96ecf (Updated profile section in portfolio)
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -26,16 +19,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-=======
->>>>>>> b26e8e5 (first changes)
-=======
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
->>>>>>> fe96ecf (Updated profile section in portfolio)
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
