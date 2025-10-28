@@ -23,7 +23,7 @@ function Home() {
         {/* Image from public folder */}
         <img
           src={process.env.PUBLIC_URL + '/profile.jpg'}
-          alt="My Photo"
+          alt="Aditi Singh"
           className="profile-img"
           style={{
             width: "200px",
