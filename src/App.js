@@ -24,6 +24,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/certificate" element={<Contact />} />
+          {/* Fallback route — ensures that unknown or unexpected paths render Home */}
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
       <Footer />

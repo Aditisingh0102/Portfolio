@@ -109,6 +109,13 @@ body.dark-mode {
   transition: background 0.3s, color 0.3s;
 }
 
+/* Hide any pseudo-element markers near the logo to prevent stray dashes */
+.sticky-navbar .logo::before,
+.sticky-navbar .logo::after {
+  content: '' !important;
+  display: none !important;
+}
+
 
 .sticky-navbar ul {
   list-style: none;
@@ -116,6 +123,9 @@ body.dark-mode {
   gap: 20px;
   align-items: center;
 }
+
+/* Hide mobile toggle by default; show it only in mobile media query */
+.nav-toggle { display: none; }
 
 
 .sticky-navbar a {
